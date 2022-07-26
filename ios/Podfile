@@ -6,7 +6,11 @@ install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
 
+<<<<<<< HEAD
 target 'AwesomeProject1' do
+=======
+target 'nativeProject' do
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -23,7 +27,11 @@ target 'AwesomeProject1' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+<<<<<<< HEAD
   target 'AwesomeProject1Tests' do
+=======
+  target 'nativeProjectTests' do
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
     inherit! :complete
     # Pods for testing
   end

@@ -10,7 +10,11 @@ include $(CLEAR_VARS)
 LOCAL_PATH := $(THIS_DIR)
 
 # You can customize the name of your application .so file here.
+<<<<<<< HEAD
 LOCAL_MODULE := awesomeproject1_appmodules
+=======
+LOCAL_MODULE := nativeproject_appmodules
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)
 LOCAL_SRC_FILES := $(wildcard $(LOCAL_PATH)/*.cpp)

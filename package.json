@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "AwesomeProject1",
+=======
+  "name": "nativeproject",
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,7 +15,11 @@
   },
   "dependencies": {
     "react": "18.0.0",
+<<<<<<< HEAD
     "react-native": "0.69.3"
+=======
+    "react-native": "0.69.2"
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

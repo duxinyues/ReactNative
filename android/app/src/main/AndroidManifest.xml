@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
   package="com.awesomeproject1">
+=======
+  package="com.nativeproject">
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
 
     <uses-permission android:name="android.permission.INTERNET" />
 

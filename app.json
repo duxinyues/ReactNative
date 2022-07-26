@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "AwesomeProject1",
   "displayName": "AwesomeProject1"
+=======
+  "name": "nativeProject",
+  "displayName": "nativeProject"
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
 }

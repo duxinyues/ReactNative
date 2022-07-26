@@ -134,7 +134,11 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.awesomeproject1"
+=======
+        applicationId "com.nativeproject"
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -157,7 +161,11 @@ android {
                     cppFlags "-std=c++17"
                     // Make sure this target name is the same you specify inside the
                     // src/main/jni/Android.mk file for the `LOCAL_MODULE` variable.
+<<<<<<< HEAD
                     targets "awesomeproject1_appmodules"
+=======
+                    targets "nativeproject_appmodules"
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
                 }
             }
             if (!enableSeparateBuildPerCPUArchitecture) {

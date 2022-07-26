@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 rootProject.name = 'AwesomeProject1'
+=======
+rootProject.name = 'nativeProject'
+>>>>>>> 7317066a53968f3e149925686bd3136f6dcd4fc6
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 includeBuild('../node_modules/react-native-gradle-plugin')
