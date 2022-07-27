@@ -39,7 +39,7 @@ const Section = ({children, title}): Node => {
         ]}>
         {title}
       </Text>
-      <Text
+      {/* <Text
         style={[
           styles.sectionDescription,
           {
@@ -47,7 +47,7 @@ const Section = ({children, title}): Node => {
           },
         ]}>
         {children}
-      </Text>
+      </Text> */}
     </View>
   );
 };
