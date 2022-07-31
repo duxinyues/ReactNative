@@ -4,7 +4,7 @@
  * @Author: duxinyues yongyuan253015@gmail.com
  * @Date: 2022-07-30 13:57:19
  * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-07-30 21:52:40
+ * @LastEditTime: 2022-07-31 21:26:07
  * @FilePath: \AwesomeProject\src\pages\hello.js
  * @Description: 开始页面
  * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
@@ -44,7 +44,7 @@ const Hello = () => {
           style={styles.image}
         />
       </View>
-      <TextInput style={styles.input} defaultValue="这是一个输入框" />
+      {/* <TextInput style={styles.input} defaultValue="这是一个输入框" />
       <TouchableHighlight
         onPressIn={onPressIn}
         onPressOut={onPressOut}
@@ -53,7 +53,7 @@ const Hello = () => {
         <View>
           <Text style={styles.button}>按钮</Text>
         </View>
-      </TouchableHighlight>
+      </TouchableHighlight> */}
     </ScrollView>
   );
 };
