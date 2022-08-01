@@ -4,7 +4,7 @@
  * @Author: duxinyues yongyuan253015@gmail.com
  * @Date: 2022-07-30 13:57:19
  * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-07-31 21:26:07
+ * @LastEditTime: 2022-08-01 21:53:32
  * @FilePath: \AwesomeProject\src\pages\hello.js
  * @Description: 开始页面
  * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
@@ -37,12 +37,18 @@ const Hello = () => {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.flexBox}>
-        <Image
-          source={{
-            uri: 'https://profile-avatar.csdnimg.cn/67927e8210de430e86d119a130c1dca2_xuelian3015.jpg!1',
-          }}
-          style={styles.image}
-        />
+        <TouchableHighlight
+          onPressIn={onPressIn}
+          onPressOut={onPressOut}
+          onLongPress={onLongPress}
+          onPress={onPress}>
+          <Image
+            source={{
+              uri: 'https://profile-avatar.csdnimg.cn/67927e8210de430e86d119a130c1dca2_xuelian3015.jpg!1',
+            }}
+            style={styles.image}
+          />
+        </TouchableHighlight>
       </View>
       {/* <TextInput style={styles.input} defaultValue="这是一个输入框" />
       <TouchableHighlight
