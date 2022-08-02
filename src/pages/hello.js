@@ -4,7 +4,7 @@
  * @Author: duxinyues yongyuan253015@gmail.com
  * @Date: 2022-07-30 13:57:19
  * @LastEditors: duxinyues yongyuan253015@gmail.com
- * @LastEditTime: 2022-08-01 21:53:32
+ * @LastEditTime: 2022-08-02 22:07:32
  * @FilePath: \AwesomeProject\src\pages\hello.js
  * @Description: 开始页面
  * Copyright (c) 2022 by duxinyues email: yongyuan253015@gmail.com, All Rights Reserved.
@@ -35,7 +35,10 @@ const Hello = () => {
     alert('消息弹窗');
   };
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView
+      style={styles.container}
+      horizontal="true"
+      keyboardDismissMode="interactive">
       <View style={styles.flexBox}>
         <TouchableHighlight
           onPressIn={onPressIn}
@@ -50,7 +53,7 @@ const Hello = () => {
           />
         </TouchableHighlight>
       </View>
-      {/* <TextInput style={styles.input} defaultValue="这是一个输入框" />
+      <TextInput style={styles.input} defaultValue="这是一个输入框" />
       <TouchableHighlight
         onPressIn={onPressIn}
         onPressOut={onPressOut}
@@ -59,7 +62,7 @@ const Hello = () => {
         <View>
           <Text style={styles.button}>按钮</Text>
         </View>
-      </TouchableHighlight> */}
+      </TouchableHighlight>
     </ScrollView>
   );
 };
@@ -67,6 +70,8 @@ const Hello = () => {
 const styles = StyleSheet.create({
   container: {
     marginTop: 40,
+    borderColor: 'blue',
+    height: 200,
   },
   flexBox: {
     display: 'flex',
